@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Parlante JBL Flip 5",
+    "price": 189.99,
+    "image": "assets/jbl.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Auriculares Beats Studio",
+    "price": 150.0,
+    "image": "assets/auris.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Barra de Sonido Samsung",
+    "price": 90.75,
+    "image": "assets/barrasonido.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Auriculares Sony WH-1000XM4",
+    "price": 299.99,
+    "image": "assets/auricularesinalambricossony.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Parlante Bluetooth Portátil",
+    "price": 79.99,
+    "image": "assets/parlanteport.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Soundbar LG 2.1 Canales",
+    "price": 120.5,
+    "image": "assets/soundbar.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Auriculares Gaming RGB",
+    "price": 85.0,
+    "image": "assets/gamingauris.jpg"
+  }
+]

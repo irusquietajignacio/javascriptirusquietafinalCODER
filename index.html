@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css"
+    />
+
+    <title>Mi Simulador</title>
+  </head>
+  <body>
+    <header>
+      <h1>Mi simulador de Ecommerce - Irusquieta</h1>
+      <nav>
+        <ul>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#carrito">Carrito</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="productos">
+        <h2>Listado de Productos</h2>
+        <div id="product-list" class="product-list"></div>
+      </section>
+
+      <section id="carrito">
+        <h2>Carrito de Compras <span id="cart-count">(0)</span></h2>
+        <div class="cart">
+          <div id="cart-items"></div>
+          <div class="cart-total">
+            <strong>Total: $<span id="total">0.00</span></strong>
+          </div>
+          <div class="cart-buttons">
+            <button id="clear-cart" class="btn-secondary">
+              Vaciar Carrito
+            </button>
+            <button id="checkout" class="btn-primary">Finalizar Compra</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; Simulador de Ecommerce por Ignacio Irusquieta. Todos los derechos
+        reservados.
+      </p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
